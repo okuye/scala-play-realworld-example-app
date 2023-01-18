@@ -19,6 +19,8 @@ libraryDependencies ++= Seq(
   "org.julienrf" %% "play-json-derived-codecs" % "7.0.0",
   "com.typesafe.play" %% "play-slick" % "5.0.0",
   "com.typesafe.play" %% "play-slick-evolutions" % "5.0.0",
+  jdbc,
+  "mysql" % "mysql-connector-java" % "8.0.27",
   "commons-validator" % "commons-validator" % "1.6",
   "com.github.slugify" % "slugify" % "2.4",
   "com.h2database" % "h2" % "1.4.200",
